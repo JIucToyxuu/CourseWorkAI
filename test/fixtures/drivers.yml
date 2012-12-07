@@ -1,0 +1,21 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  F: MyString
+  I: MyString
+  O: MyString
+  NomberDL: MyString
+  ExperienceDriver: MyString
+  typeDL: MyString
+  Age: MyString
+  Experience: MyString
+
+two:
+  F: MyString
+  I: MyString
+  O: MyString
+  NomberDL: MyString
+  ExperienceDriver: MyString
+  typeDL: MyString
+  Age: MyString
+  Experience: MyString
