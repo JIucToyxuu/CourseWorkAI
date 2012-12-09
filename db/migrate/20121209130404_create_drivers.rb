@@ -12,6 +12,7 @@ class CreateDrivers < ActiveRecord::Migration
       t.string :Experience
       t.boolean :TimeWorkDay
 
+
       t.timestamps
     end
   end
