@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20121209120323) do
+ActiveRecord::Schema.define(:version => 20121209120944) do
 
   create_table "cars", :force => true do |t|
     t.string   "N"
@@ -79,6 +79,16 @@ ActiveRecord::Schema.define(:version => 20121209120323) do
     t.boolean  "statusJobs"
     t.datetime "created_at",       :null => false
     t.datetime "updated_at",       :null => false
+  end
+
+  create_table "statistics", :force => true do |t|
+    t.string   "Year"
+    t.string   "Month"
+    t.integer  "Light_max"
+    t.integer  "Medium"
+    t.integer  "Heavy"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
   end
 
 end

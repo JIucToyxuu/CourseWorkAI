@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  Year: MyString
+  Month: MyString
+  Light_max: 1
+  Medium: 1
+  Heavy: 1
+
+two:
+  Year: MyString
+  Month: MyString
+  Light_max: 1
+  Medium: 1
+  Heavy: 1

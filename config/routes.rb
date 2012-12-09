@@ -1,4 +1,6 @@
 CourseWorkAI::Application.routes.draw do
+  resources :statistics
+
   resources :graphics
 
   resources :documents

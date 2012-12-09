@@ -1,0 +1,30 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Year:</b>
+  <%= @statistic.Year %>
+</p>
+
+<p>
+  <b>Month:</b>
+  <%= @statistic.Month %>
+</p>
+
+<p>
+  <b>Light max:</b>
+  <%= @statistic.Light_max %>
+</p>
+
+<p>
+  <b>Medium:</b>
+  <%= @statistic.Medium %>
+</p>
+
+<p>
+  <b>Heavy:</b>
+  <%= @statistic.Heavy %>
+</p>
+
+
+<%= link_to 'Edit', edit_statistic_path(@statistic) %> |
+<%= link_to 'Back', statistics_path %>

@@ -1,0 +1,37 @@
+<%= form_for(@statistic) do |f| %>
+  <% if @statistic.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@statistic.errors.count, "error") %> prohibited this statistic from being saved:</h2>
+
+      <ul>
+      <% @statistic.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :Year %><br />
+    <%= f.text_field :Year %>
+  </div>
+  <div class="field">
+    <%= f.label :Month %><br />
+    <%= f.text_field :Month %>
+  </div>
+  <div class="field">
+    <%= f.label :Light_max %><br />
+    <%= f.number_field :Light_max %>
+  </div>
+  <div class="field">
+    <%= f.label :Medium %><br />
+    <%= f.number_field :Medium %>
+  </div>
+  <div class="field">
+    <%= f.label :Heavy %><br />
+    <%= f.number_field :Heavy %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>
