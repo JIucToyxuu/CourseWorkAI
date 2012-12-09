@@ -10,6 +10,7 @@
     <th>Typedl</th>
     <th>Age</th>
     <th>Experience</th>
+    <th>TimeWorkDay</th>
     <th></th>
     <th></th>
     <th></th>
@@ -18,13 +19,14 @@
 <% @drivers.each do |driver| %>
   <tr>
     <td><%= driver.F %></td>
-    <td><%= driver.I %></td>
+    <td><%= driver.N %></td>
     <td><%= driver.O %></td>
     <td><%= driver.NomberDL %></td>
     <td><%= driver.ExperienceDriver %></td>
     <td><%= driver.typeDL %></td>
     <td><%= driver.Age %></td>
     <td><%= driver.Experience %></td>
+    <td><%= driver.TimeWorkDay %></td>
     <td><%= link_to 'Show', driver %></td>
     <td><%= link_to 'Edit', edit_driver_path(driver) %></td>
     <td><%= link_to 'Destroy', driver, confirm: 'Are you sure?', method: :delete %></td>

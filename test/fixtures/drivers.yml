@@ -2,20 +2,24 @@
 
 one:
   F: MyString
-  I: MyString
+  N: MyString
   O: MyString
   NomberDL: MyString
   ExperienceDriver: MyString
   typeDL: MyString
   Age: MyString
+  string: MyString
   Experience: MyString
+  TimeWorkDay: false
 
 two:
   F: MyString
-  I: MyString
+  N: MyString
   O: MyString
   NomberDL: MyString
   ExperienceDriver: MyString
   typeDL: MyString
   Age: MyString
+  string: MyString
   Experience: MyString
+  TimeWorkDay: false
