@@ -1,4 +1,5 @@
 class DriversController < ApplicationController
+
   # GET /drivers
   # GET /drivers.json
   def index
