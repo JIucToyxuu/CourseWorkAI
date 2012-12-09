@@ -1,4 +1,5 @@
-/*
-  Place all the styles related to the matching controller here.
-  They will automatically be included in application.css.
-*/
+table { border-collapse: collapse; width: 100%; }
+td { padding: 10px; }
+td#one { background: red; width: 1000px; }
+td#two { background: green; width: 70%; }
+td#three { background: blue; width: 30%; }
