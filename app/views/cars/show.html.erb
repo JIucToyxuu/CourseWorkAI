@@ -1,0 +1,30 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>N:</b>
+  <%= @car.N %>
+</p>
+
+<p>
+  <b>Tonnage:</b>
+  <%= @car.Tonnage %>
+</p>
+
+<p>
+  <b>Picture:</b>
+  <%= @car.Picture %>
+</p>
+
+<p>
+  <b>Price for 1 hour:</b>
+  <%= @car.Price_for_1_hour %>
+</p>
+
+<p>
+  <b>Id driver:</b>
+  <%= @car.ID_driver %>
+</p>
+
+
+<%= link_to 'Edit', edit_car_path(@car) %> |
+<%= link_to 'Back', cars_path %>

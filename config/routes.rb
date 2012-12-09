@@ -1,4 +1,8 @@
 CourseWorkAI::Application.routes.draw do
+  resources :documents
+
+  resources :cars
+
   resources :jobs
 
   resources :drivers

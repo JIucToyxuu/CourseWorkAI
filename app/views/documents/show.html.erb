@@ -1,0 +1,40 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Id client:</b>
+  <%= @document.ID_client %>
+</p>
+
+<p>
+  <b>Id auto:</b>
+  <%= @document.ID_auto %>
+</p>
+
+<p>
+  <b>Price:</b>
+  <%= @document.Price %>
+</p>
+
+<p>
+  <b>Time:</b>
+  <%= @document.Time %>
+</p>
+
+<p>
+  <b>Year:</b>
+  <%= @document.Year %>
+</p>
+
+<p>
+  <b>Month:</b>
+  <%= @document.Month %>
+</p>
+
+<p>
+  <b>Day:</b>
+  <%= @document.Day %>
+</p>
+
+
+<%= link_to 'Edit', edit_document_path(@document) %> |
+<%= link_to 'Back', documents_path %>

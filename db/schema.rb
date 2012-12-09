@@ -11,13 +11,35 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20121207132321) do
+ActiveRecord::Schema.define(:version => 20121209115630) do
+
+  create_table "cars", :force => true do |t|
+    t.string   "N"
+    t.string   "Tonnage"
+    t.string   "Picture"
+    t.string   "Price_for_1_hour"
+    t.integer  "ID_driver"
+    t.datetime "created_at",       :null => false
+    t.datetime "updated_at",       :null => false
+  end
 
   create_table "clients", :force => true do |t|
     t.string   "F"
     t.string   "N"
     t.string   "O"
     t.string   "Status"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+  end
+
+  create_table "documents", :force => true do |t|
+    t.integer  "ID_client"
+    t.integer  "ID_auto"
+    t.string   "Price"
+    t.string   "Time"
+    t.string   "Year"
+    t.string   "Month"
+    t.string   "Day"
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
   end

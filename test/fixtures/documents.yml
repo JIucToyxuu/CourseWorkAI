@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  ID_client: 1
+  ID_auto: 1
+  Price: MyString
+  Time: MyString
+  Year: MyString
+  Month: MyString
+  Day: MyString
+
+two:
+  ID_client: 1
+  ID_auto: 1
+  Price: MyString
+  Time: MyString
+  Year: MyString
+  Month: MyString
+  Day: MyString

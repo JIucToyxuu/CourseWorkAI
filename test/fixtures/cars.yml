@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  N: MyString
+  Tonnage: MyString
+  Picture: MyString
+  Price_for_1_hour: MyString
+  ID_driver: 1
+
+two:
+  N: MyString
+  Tonnage: MyString
+  Picture: MyString
+  Price_for_1_hour: MyString
+  ID_driver: 1
