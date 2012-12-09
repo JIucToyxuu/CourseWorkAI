@@ -1,0 +1,35 @@
+<h1>Listing graphics</h1>
+
+<table>
+  <tr>
+    <th>Id car</th>
+    <th>Time</th>
+    <th>Status</th>
+    <th>Id client</th>
+    <th>Year</th>
+    <th>Month</th>
+    <th>Day</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @graphics.each do |graphic| %>
+  <tr>
+    <td><%= graphic.ID_car %></td>
+    <td><%= graphic.Time %></td>
+    <td><%= graphic.Status %></td>
+    <td><%= graphic.ID_client %></td>
+    <td><%= graphic.Year %></td>
+    <td><%= graphic.Month %></td>
+    <td><%= graphic.Day %></td>
+    <td><%= link_to 'Show', graphic %></td>
+    <td><%= link_to 'Edit', edit_graphic_path(graphic) %></td>
+    <td><%= link_to 'Destroy', graphic, confirm: 'Are you sure?', method: :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Graphic', new_graphic_path %>

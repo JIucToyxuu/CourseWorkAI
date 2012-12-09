@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  ID_car: 1
+  Time: MyString
+  Status: false
+  ID_client: 1
+  Year: MyString
+  Month: MyString
+  Day: MyString
+
+two:
+  ID_car: 1
+  Time: MyString
+  Status: false
+  ID_client: 1
+  Year: MyString
+  Month: MyString
+  Day: MyString

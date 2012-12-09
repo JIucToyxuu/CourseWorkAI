@@ -1,0 +1,40 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Id car:</b>
+  <%= @graphic.ID_car %>
+</p>
+
+<p>
+  <b>Time:</b>
+  <%= @graphic.Time %>
+</p>
+
+<p>
+  <b>Status:</b>
+  <%= @graphic.Status %>
+</p>
+
+<p>
+  <b>Id client:</b>
+  <%= @graphic.ID_client %>
+</p>
+
+<p>
+  <b>Year:</b>
+  <%= @graphic.Year %>
+</p>
+
+<p>
+  <b>Month:</b>
+  <%= @graphic.Month %>
+</p>
+
+<p>
+  <b>Day:</b>
+  <%= @graphic.Day %>
+</p>
+
+
+<%= link_to 'Edit', edit_graphic_path(@graphic) %> |
+<%= link_to 'Back', graphics_path %>

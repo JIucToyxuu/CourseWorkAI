@@ -1,0 +1,45 @@
+<%= form_for(@graphic) do |f| %>
+  <% if @graphic.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@graphic.errors.count, "error") %> prohibited this graphic from being saved:</h2>
+
+      <ul>
+      <% @graphic.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :ID_car %><br />
+    <%= f.number_field :ID_car %>
+  </div>
+  <div class="field">
+    <%= f.label :Time %><br />
+    <%= f.text_field :Time %>
+  </div>
+  <div class="field">
+    <%= f.label :Status %><br />
+    <%= f.check_box :Status %>
+  </div>
+  <div class="field">
+    <%= f.label :ID_client %><br />
+    <%= f.number_field :ID_client %>
+  </div>
+  <div class="field">
+    <%= f.label :Year %><br />
+    <%= f.text_field :Year %>
+  </div>
+  <div class="field">
+    <%= f.label :Month %><br />
+    <%= f.text_field :Month %>
+  </div>
+  <div class="field">
+    <%= f.label :Day %><br />
+    <%= f.text_field :Day %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>
